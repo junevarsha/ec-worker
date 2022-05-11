@@ -1,0 +1,11 @@
+name = "ec_worker"
+type = "webpack"
+
+account_id = "0cfb9ed41b5b5c78252fc0c77d486f5b"
+workers_dev = true
+compatibility_date = "2022-01-12"
+
+[env.production]
+workers_dev = false
+route = "https://www.espressoandcroissant.com/"
+zone_id = "3c33e2905665ddf8fd8903f24a381065"
